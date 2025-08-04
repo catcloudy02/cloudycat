@@ -1,0 +1,27 @@
+body {
+    background-color: #f5f0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+#cat {
+    width: 300px;
+    cursor: pointer;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e0d4ff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #c8b6ff;
+}
